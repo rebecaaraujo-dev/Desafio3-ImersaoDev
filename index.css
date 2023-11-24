@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-image: url("https://lh3.googleusercontent.com/pw/ADCreHcSk5evUgxhdBGYJLhr8Zt1Ss_iJtW4x1NUiipXuj53G2Up_apBGYDrdNyRsEqYW000p67Cw8NbbjE7w6TQQ9nJk9qTpLp9vek04qGkPD4wKDDivDWd72WY4UyuV-k9-AveDA9A3oMz0UNi9zELFzjpo2tmvXzaO_Rs_Z5oH1YEcQH9YEG_gSraOjtq5QI1RXPjTLgwfDUngwiN_q3yKP9qZFAId5PIH1GrH7gw_zA_L4PQEP5DYvbLF2347qEd_okaqGLKX8fUgPtxns7WrkYmV90xSFqxR40k1bZ-8oeih_l724AONISclMH1-XVU6eT19dvH4O7zPVtkU4-P_CXPPoGfr5RLNN85wVnv5Lv8MQxb5hkR1jtVOz6ScEud3oYDWXi7FCGBAlUUONTJuK6PrUPEizpELDyrgJ-SLYZeZNSgElHIf6wk2t6rkENB6E3Jcz6g2Rm3Y2SXhJbaXWVwcsStoxLu_j8R2XVI4ETyN-02z4GsngI488M4SCiZOYcgZlcr5LS0bO8SGiX-vkfv4fE94fpej1bLfl-1eozwBuh5p0JWWFuUW1dhTdhv2ycTQ1nkwvXr2Nrhqyczk9Rk1l2R9g4Jo6CFLb5PM39CVqK00U5QWA3PnkuV8siuWi8LqjtvwWnDdWBQTrz1N6GC24iWhctL0E37jolTiMddGO1FbEHGptOJNm5mBFzeppIr_AYVHVJ7YgFvQPGRa_Z83uGU05_loEM0a70Y-6vWSUrVkmyPqUms_lpXyj1aHKwrS-qzcvlFbBblOvrxKdDHQU5eKoVHpKSKpueSN9ryGkDP29RKKC6EmddT3lCIqhkkWE8OlK5czmDrny4i0a-ZAV3BmzRqNQP3Xnk-6pGVUQkLYfbIoNnOCk25AOJYjthMQ9StFzTJfpCRVOkaz1B-imuW_LuFbGjXn_8PRLVId66n-DMvNjzq3RwPJNAY02rJj29310HMlJ3E7RvHBo7fvRM172bgNRYZGnDc0eyzO1MpN3CMM1e5wVTM-1XZS1OJpH8=w293-h220-no?authuser=0");
+  background-image: url("./close-up-film-texture-details_23-2149368371.jpg");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -15,8 +15,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  position: relative; /* Adicione esta linha */
-  z-index: 2; /* Adicione esta linha */
+  position: relative;
+  z-index: 2;
 }
 
 .page-title {
@@ -38,20 +38,20 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
-  z-index: 1; /* Adicione esta linha */
+  z-index: 1;
 }
 
 
 .container_todosFilmes {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: space-around;
 }
 
 .container_filme{
   padding: 2%;
-  display: block;
-  max-width: 30%;
+  /* display: block; */
+  max-width: 100%;
   
 }
 
@@ -65,7 +65,7 @@ img {
 }
 
 img:hover{
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
 p{
