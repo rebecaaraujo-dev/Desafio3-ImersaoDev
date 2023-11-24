@@ -1,0 +1,13 @@
+Desafio 3: Paulo quer que troque o for por while. Rafa quer que as imagens tenham jpg no final. Gui quer que armazenemos também o nome dos filmes em uma lista, com novo "document.write".
+
+começamos adicionando todos os filmes e seus nomes através de duas variáveis diferentes em lista
+
+utilizando o push vamos adicionar filmes na lista
+
+agora para o laço, vamos abrir uma div que é como uma caixinha/container onde colocamos nossas informações para aparecer na tela
+
+MEUS ERROS:
+- sempre colocar aspas simples dentro dos parenteses em document.write. Exemplo: document.write('<div class = "container_filmes"')
+- o nome da div class deve vir entre aspas como mostrado no exemplo anterior
+- ao usar o ".endsWith" devemos colocar a especificação entre parenteses e o With começa sempre com letra maiúscula. Exemplo: filmes.endsWith(jpeg)
+- não esquecer de colocar no final o i++ para que o laço não fique "travado" no 0!!!
